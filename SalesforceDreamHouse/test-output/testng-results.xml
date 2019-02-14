@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-14T09:09:37Z" name="Suite" finished-at="2019-02-14T09:10:49Z" duration-ms="72416">
+    <groups>
+    </groups>
+    <test started-at="2019-02-14T09:09:37Z" name="Test" finished-at="2019-02-14T09:10:49Z" duration-ms="72416">
+      <class name="com.salesforce.test.SalesforceDreamHouse.PropertyCreationTest">
+        <test-method is-config="true" signature="openBrowser(org.testng.ITestContext)[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.PropertyCreationTest@45815ffc]" started-at="2019-02-14T09:10:11Z" name="openBrowser" finished-at="2019-02-14T09:10:24Z" duration-ms="13072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3cd46491]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="createPropertyTest()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.PropertyCreationTest@45815ffc]" started-at="2019-02-14T09:10:24Z" name="createPropertyTest" finished-at="2019-02-14T09:10:47Z" duration-ms="22506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPropertyTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.PropertyCreationTest@45815ffc]" started-at="2019-02-14T09:10:47Z" name="closeBrowser" finished-at="2019-02-14T09:10:49Z" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.salesforce.test.SalesforceDreamHouse.PropertyCreationTest -->
+      <class name="com.salesforce.test.SalesforceDreamHouse.BaseTest">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.BaseTest@299321e2]" started-at="2019-02-14T09:10:50Z" name="tearDown" finished-at="2019-02-14T09:11:02Z" duration-ms="12135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.test.SalesforceDreamHouse.BaseTest -->
+      <class name="com.salesforce.test.SalesforceDreamHouse.InvalidDateTest">
+        <test-method is-config="true" signature="openBrowser(org.testng.ITestContext)[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.InvalidDateTest@70a36a66]" started-at="2019-02-14T09:09:37Z" name="openBrowser" finished-at="2019-02-14T09:09:50Z" duration-ms="13485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3cd46491]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="invalidDateTest()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.InvalidDateTest@70a36a66]" started-at="2019-02-14T09:09:50Z" name="invalidDateTest" finished-at="2019-02-14T09:10:09Z" duration-ms="18836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDateTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.InvalidDateTest@70a36a66]" started-at="2019-02-14T09:10:09Z" name="closeBrowser" finished-at="2019-02-14T09:10:11Z" duration-ms="2117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.salesforce.test.SalesforceDreamHouse.InvalidDateTest -->
+      <class name="com.salesforce.test.SalesforceDreamHouse.Annotations">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.Annotations@35a9782c]" started-at="2019-02-14T09:09:37Z" name="beforeSuite" finished-at="2019-02-14T09:09:37Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.Annotations@35a9782c]" started-at="2019-02-14T09:09:37Z" name="beforeTest" finished-at="2019-02-14T09:09:37Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.Annotations@35a9782c]" started-at="2019-02-14T09:09:37Z" name="beforeClass" finished-at="2019-02-14T09:09:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.Annotations@35a9782c]" started-at="2019-02-14T09:09:37Z" name="beforeMethod" finished-at="2019-02-14T09:09:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.Annotations@35a9782c]" started-at="2019-02-14T09:09:37Z" name="test1" finished-at="2019-02-14T09:09:37Z" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.Annotations@35a9782c]" started-at="2019-02-14T09:09:37Z" name="afterMethod" finished-at="2019-02-14T09:09:37Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.Annotations@35a9782c]" started-at="2019-02-14T09:09:37Z" name="beforeMethod" finished-at="2019-02-14T09:09:37Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.Annotations@35a9782c]" started-at="2019-02-14T09:09:37Z" name="test2" finished-at="2019-02-14T09:09:37Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.salesforce.test.SalesforceDreamHouse.Annotations@35a9782c]" started-at="2019-02-14T09:09:37Z" name="afterMethod" finished-at="2019-02-14T09:09:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.salesforce.test.SalesforceDreamHouse.Annotations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
