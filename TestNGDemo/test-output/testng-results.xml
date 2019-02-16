@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-13T10:51:31Z" name="Suite" finished-at="2019-02-13T10:52:24Z" duration-ms="52311">
+    <groups>
+    </groups>
+    <test started-at="2019-02-13T10:51:31Z" name="Chrome Test" finished-at="2019-02-13T10:51:39Z" duration-ms="7793">
+      <class name="demo.CBT">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:demo.CBT@279fedbd]" started-at="2019-02-13T10:51:31Z" name="openBrowser" finished-at="2019-02-13T10:51:39Z" duration-ms="7364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyTitle()[pri:0, instance:demo.CBT@279fedbd]" started-at="2019-02-13T10:51:39Z" name="verifyTitle" finished-at="2019-02-13T10:51:39Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifySignInBtnVisibility()[pri:1, instance:demo.CBT@279fedbd]" started-at="2019-02-13T10:51:39Z" name="verifySignInBtnVisibility" finished-at="2019-02-13T10:51:39Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInBtnVisibility -->
+        <test-method signature="verifyText()[pri:2, instance:demo.CBT@279fedbd]" started-at="2019-02-13T10:51:39Z" name="verifyText" finished-at="2019-02-13T10:51:39Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method signature="verifySearchBtnStatusBeforeText()[pri:3, instance:demo.CBT@279fedbd]" started-at="2019-02-13T10:51:39Z" name="verifySearchBtnStatusBeforeText" finished-at="2019-02-13T10:51:39Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStatusBeforeText -->
+        <test-method signature="verifySearchBtnStatusAfterText()[pri:4, instance:demo.CBT@279fedbd]" started-at="2019-02-13T10:51:39Z" name="verifySearchBtnStatusAfterText" finished-at="2019-02-13T10:51:39Z" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStatusAfterText -->
+      </class> <!-- demo.CBT -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2019-02-13T10:51:31Z" name="IE Test" finished-at="2019-02-13T10:52:24Z" duration-ms="52311">
+      <class name="demo.CBT">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:demo.CBT@4988d8b8]" started-at="2019-02-13T10:51:31Z" name="openBrowser" finished-at="2019-02-13T10:51:36Z" duration-ms="4223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyTitle()[pri:0, instance:demo.CBT@4988d8b8]" started-at="2019-02-13T10:51:36Z" name="verifyTitle" finished-at="2019-02-13T10:51:36Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifySignInBtnVisibility()[pri:1, instance:demo.CBT@4988d8b8]" started-at="2019-02-13T10:51:36Z" name="verifySignInBtnVisibility" finished-at="2019-02-13T10:51:36Z" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInBtnVisibility -->
+        <test-method signature="verifyText()[pri:2, instance:demo.CBT@4988d8b8]" started-at="2019-02-13T10:51:36Z" name="verifyText" finished-at="2019-02-13T10:51:36Z" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method signature="verifySearchBtnStatusBeforeText()[pri:3, instance:demo.CBT@4988d8b8]" started-at="2019-02-13T10:51:36Z" name="verifySearchBtnStatusBeforeText" finished-at="2019-02-13T10:51:37Z" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStatusBeforeText -->
+        <test-method signature="verifySearchBtnStatusAfterText()[pri:4, instance:demo.CBT@4988d8b8]" started-at="2019-02-13T10:51:37Z" name="verifySearchBtnStatusAfterText" finished-at="2019-02-13T10:52:24Z" duration-ms="46673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStatusAfterText -->
+      </class> <!-- demo.CBT -->
+    </test> <!-- IE Test -->
+  </suite> <!-- Suite -->
+</testng-results>
